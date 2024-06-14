@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
           appBar: AppBar(
             bottom: const TabBar(
               tabs: [
-                Text('Home'),
+                Text('about'),
                 Text('About'),
                 Text('Contact'),
               ],
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
           body: const TabBarView(
             children: [
               Text(
-                  'Tabs are exactly what you think it is. It’s part of the UI that navigates the user through different routes(ie, pages) when clicked upon.'),
+                  'Tabs are exactlys part of the UI that navigates the user through different routes(ie, pages) when clicked upon.'),
               Text('Calendar'),
               Text('Alarm'),
             ],
